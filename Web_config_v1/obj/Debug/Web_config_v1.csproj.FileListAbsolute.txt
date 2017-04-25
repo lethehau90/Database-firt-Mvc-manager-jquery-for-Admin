@@ -1,0 +1,281 @@
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Web_config_v1.dll.config
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Web_config_v1.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Web_config_v1.pdb
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Antlr3.Runtime.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\CKEditor.NET.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\CKFinder.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.AspNet.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.Core.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OAuth.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OpenId.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\EntityFramework.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Microsoft.Data.Edm.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Microsoft.Data.OData.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Microsoft.Web.Infrastructure.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Newtonsoft.Json.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Net.Http.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Net.Http.Formatting.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Net.Http.WebRequest.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Spatial.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.Helpers.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.Http.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.Http.OData.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.Http.WebHost.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.Mvc.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.Optimization.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.Razor.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.Deployment.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.Razor.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\WebGrease.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\WebMatrix.Data.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\WebMatrix.WebData.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\CKFinder.pdb
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\EntityFramework.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Newtonsoft.Json.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Net.Http.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Net.Http.Formatting.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Net.Http.WebRequest.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.Helpers.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.Http.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.Http.WebHost.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.Mvc.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.Razor.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.Deployment.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.Razor.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\WebMatrix.Data.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\WebMatrix.WebData.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.AspNet.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.Core.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OAuth.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OpenId.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Web.Http.OData.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Microsoft.Data.Edm.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\Microsoft.Data.OData.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\System.Spatial.xml
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\de\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\es\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\it\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\de\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\es\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\fr\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\it\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\ja\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\ko\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\ru\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\de\System.Spatial.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\es\System.Spatial.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\fr\System.Spatial.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\it\System.Spatial.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\ja\System.Spatial.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\ko\System.Spatial.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\ru\System.Spatial.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\zh-Hans\System.Spatial.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\bin\zh-Hant\System.Spatial.resources.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\obj\Debug\Web_config_v1.dll
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\obj\Debug\Web_config_v1.pdb
+E:\WEB MVC\Source\Web_config_v1\Web_config_v1\obj\Debug\Web_config_v1.csprojResolveAssemblyReference.cache
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Web_config_v1.dll.config
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Web_config_v1.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Web_config_v1.pdb
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Antlr3.Runtime.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\CKFinder.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.AspNet.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.Core.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OAuth.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OpenId.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\EntityFramework.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Data.Edm.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Data.OData.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Web.Infrastructure.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Newtonsoft.Json.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Net.Http.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Net.Http.Formatting.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Net.Http.WebRequest.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Spatial.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Helpers.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Http.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Http.OData.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Http.WebHost.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Mvc.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Optimization.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Razor.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.Deployment.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.Razor.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\WebGrease.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\WebMatrix.Data.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\WebMatrix.WebData.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\CKFinder.pdb
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\EntityFramework.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Newtonsoft.Json.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Net.Http.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Net.Http.Formatting.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Net.Http.WebRequest.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Helpers.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Http.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Http.WebHost.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Mvc.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Razor.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.Deployment.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.Razor.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\WebMatrix.Data.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\WebMatrix.WebData.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.AspNet.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.Core.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OAuth.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OpenId.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Http.OData.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Data.Edm.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Data.OData.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Spatial.xml
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\de\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\es\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\it\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\de\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\es\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\fr\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\it\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ja\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ko\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ru\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\de\System.Spatial.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\es\System.Spatial.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\fr\System.Spatial.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\it\System.Spatial.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ja\System.Spatial.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ko\System.Spatial.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ru\System.Spatial.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\zh-Hans\System.Spatial.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\zh-Hant\System.Spatial.resources.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\obj\Debug\Web_config_v1.dll
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\obj\Debug\Web_config_v1.pdb
+E:\WEB MVC\CA NHAN\Jquery_webconfig\Web_config_v1\Web_config_v1\obj\Debug\Web_config_v1.csprojResolveAssemblyReference.cache
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Web_config_v1.dll.config
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Web_config_v1.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Web_config_v1.pdb
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Antlr3.Runtime.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\CKFinder.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.AspNet.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.Core.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OAuth.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OpenId.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\EntityFramework.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Data.Edm.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Data.OData.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Web.Infrastructure.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Web.WebPages.OAuth.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Newtonsoft.Json.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Net.Http.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Net.Http.Formatting.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Net.Http.WebRequest.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Spatial.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Helpers.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Http.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Http.OData.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Http.WebHost.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Mvc.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Optimization.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Razor.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.Deployment.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.Razor.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\WebGrease.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\WebMatrix.Data.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\WebMatrix.WebData.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\CKFinder.pdb
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\EntityFramework.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Newtonsoft.Json.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Net.Http.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Net.Http.Formatting.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Net.Http.WebRequest.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Helpers.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Http.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Http.WebHost.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Mvc.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Razor.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.Deployment.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.WebPages.Razor.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\WebMatrix.Data.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Web.WebPages.OAuth.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\WebMatrix.WebData.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.AspNet.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.Core.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OAuth.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OpenId.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Web.Http.OData.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Data.Edm.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\Microsoft.Data.OData.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\System.Spatial.xml
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\de\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\es\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\fr\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\it\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ja\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ko\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ru\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\de\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\es\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\fr\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\it\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ja\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ko\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ru\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\de\System.Spatial.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\es\System.Spatial.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\fr\System.Spatial.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\it\System.Spatial.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ja\System.Spatial.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ko\System.Spatial.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\ru\System.Spatial.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\zh-Hans\System.Spatial.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\zh-Hant\System.Spatial.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\obj\Debug\Web_config_v1.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\obj\Debug\Web_config_v1.pdb
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\bin\vi\Web_config_v1.resources.dll
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\obj\Debug\Web_config_v1.Resources.Lang.resources
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\obj\Debug\Web_config_v1.Resources.Lang.vi.resources
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\obj\Debug\Web_config_v1.csproj.GenerateResource.Cache
+E:\WEB MVC\CaNhan_Java\Jquery_webconfig\Web_config_v1\Web_config_v1\obj\Debug\vi\Web_config_v1.resources.dll

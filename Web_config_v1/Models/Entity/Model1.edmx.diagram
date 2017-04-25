@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f3a02161adf04bea842975ba1ed5db95" Name="Diagram1">
+        <EntityTypeShape EntityType="Web_config_v1Model.Advertise" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Bill_customers" Width="1.5" PointX="10" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Billdetail" Width="1.5" PointX="12.25" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.CommentProduc" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Company" Width="1.5" PointX="3" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Config" Width="1.5" PointX="2.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Contact" Width="1.5" PointX="4.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.CTdonhang" Width="1.5" PointX="12.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Custumer" Width="1.5" PointX="7.75" PointY="11" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Chitiethinh" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Document" Width="1.5" PointX="5.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.DocumentType" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Donhang" Width="1.5" PointX="6.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.EmailRegister" Width="1.5" PointX="14.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Even_Date" Width="1.5" PointX="8.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.GroupLibrary" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.GroupMember" Width="1.5" PointX="0.75" PointY="6.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.GroupMenuSanPham" Width="1.5" PointX="10.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.GroupNewMenuSanPhamDetail" Width="1.5" PointX="14.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.GroupNew" Width="1.5" PointX="16.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.GroupNewsNewsDetail" Width="1.5" PointX="16.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.GroupSupport" Width="1.5" PointX="10.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Html" Width="1.5" PointX="16.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.information" Width="1.5" PointX="18.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Kichthuoc" Width="1.5" PointX="18.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Khoanggia" Width="1.5" PointX="18.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Language" Width="1.5" PointX="18.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Library" Width="1.5" PointX="8.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.MacodeKhuyenMai" Width="1.5" PointX="18.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Mausac" Width="1.5" PointX="16.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Member" Width="1.5" PointX="3" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Nuocsanxuat" Width="1.5" PointX="18.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Province" Width="1.5" PointX="0.75" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.quantity_purchased" Width="1.5" PointX="20.75" PointY="1.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.service_charge" Width="1.5" PointX="0.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Shop" Width="1.5" PointX="5.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.SlideShow" Width="1.5" PointX="2.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Support" Width="1.5" PointX="13" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Tax_ruler" Width="1.5" PointX="20.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.TB_ThongKe" Width="1.5" PointX="4.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Tintuc" Width="1.5" PointX="6.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Thanhvien" Width="1.5" PointX="20.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Thuonghieu" Width="1.5" PointX="8.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.Url_thanhtoan" Width="1.5" PointX="10.75" PointY="21.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Web_config_v1Model.User" Width="1.5" PointX="20.75" PointY="13.75" IsExpanded="true" />
+        <AssociationConnector Association="Web_config_v1Model.FK_tbBill_customers_tbCUSTOMERS" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_config_v1Model.FK_tbBilldetail_tbBill_customers" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_config_v1Model.FK_Company_Province" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_config_v1Model.FK_Shop_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_config_v1Model.FRK_Document_MemberId" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_config_v1Model.FRK_Document_TypeId" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_config_v1Model.FRK_Library_GroupLibraryId" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_config_v1Model.FRK_Member_GroupMemberId" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_config_v1Model.FRK_Support_GroupSupportId" ManuallyRouted="false" />
+        <AssociationConnector Association="Web_config_v1Model.FRK_Library_MemberId" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
