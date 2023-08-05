@@ -1,0 +1,127 @@
+﻿  <!--Alter toast-->
+@{
+    string language = Convert.ToString(Session["lang"]);
+}
+<div class="pad10h">
+    <div class="contact_left">
+        @if (language == "vi")
+        {
+            <h2>Liên hệ</h2>
+        }
+        else
+        {
+            <h2>Contact</h2>
+        }
+        <div class="col-md-6" style="padding-top:20px">
+            <div class="form-group">
+                @if (language == "vi")
+                {
+                    <input type="email" class="form-control" id="Inputname" placeholder="Nhập họ và tên">
+                }
+                else
+                {
+                    <input type="email" class="form-control" id="Inputname" placeholder="Your Name">
+                }
+            </div>
+            <div class="form-group">
+                @if (language == "vi")
+                {
+                    <input type="email" class="form-control" id="InputEmail" placeholder="Nhập email">
+                }
+                else
+                {
+                    <input type="email" class="form-control" id="InputEmail" placeholder="Your email">
+                }
+            </div>
+            <div class="form-group">
+                @if (language == "vi")
+                {
+                    <input type="email" class="form-control" id="Inputphone" placeholder="Nhập số điện thoại" onkeypress="return isNumberKey(event);">
+                }
+                else
+                {
+                    <input type="email" class="form-control" id="Inputphone" placeholder="Your phone number" onkeypress="return isNumberKey(event);">
+                }
+            </div>
+            <div class="form-group">
+                @if (language == "vi")
+                {
+                    <textarea class="form-control" rows="3" id="Inputnote" placeholder="Nhập ghi chú"></textarea>
+                }
+                else
+                {
+                    <textarea class="form-control" rows="3" id="Inputnote" placeholder="Note"></textarea>
+                }
+            </div>
+            @if (language == "vi")
+            {
+                <button type="submit" id="sendSubmit" class="btn btn-default">Gủi Liên Hệ</button>
+            }
+            else
+            {
+                <button type="submit" id="sendSubmitEN" class="btn btn-default">Send Contact</button>
+            }
+        </div>
+
+    </div>
+    <div class="contact_right">
+        @{Html.RenderAction("DiaChi_contact", "Contact");}
+        @{Html.RenderAction("OpenOffice_contact", "Contact");}
+    </div>
+</div>
+
+<style type="text/css">
+    .form-group {
+        margin-bottom: 15px;
+    }
+
+    .form-control {
+        display: block;
+        width: 100%;
+        height: 34px;
+        padding: 6px 12px;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #555;
+        background-color: #fff;
+        background-image: none;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+        box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+        -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+        -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+        transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    }
+
+    .error {
+        padding-left: 5px;
+        color: red;
+    }
+
+    .btn {
+        display: inline-block;
+        padding: 6px 12px;
+        margin-bottom: 0;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.42857143;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        -ms-touch-action: manipulation;
+        touch-action: manipulation;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        background-image: none;
+        border: 1px solid transparent;
+        border-radius: 4px;
+    }
+</style>
+
+<link href="/wp-content/plugins/AlertToast/jquery.toast.css" rel="stylesheet" />
+<script src="/wp-content/plugins/AlertToast/jquery.toast.js"></script>
+<script src="/wp-json/Contact_JS.js"></script>

@@ -50,6 +50,12 @@
       <HintPath>..\..\..\CA NHAN\ReMoiNgay_V2_New\ReMoiNgay\bin\CKFinder.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Entity" />
@@ -238,6 +244,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BaseControllor.cs" />
     <Compile Include="Models\Command\ControlClass.cs">
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
@@ -2024,6 +2031,7 @@
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\images\radio_button.png" />
     <Content Include="Content\j_shop.css" />
+    <Content Include="Content\PagedList.css" />
     <Content Include="Content\Phantrang.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Content\thanhtoan\analytics.js" />
@@ -2421,6 +2429,27 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Language\Index.cshtml" />
+    <Content Include="Views\Home\_Icon_web.cshtml" />
+    <Content Include="Views\Home\Setting_Config.cshtml" />
+    <Content Include="Views\Home\About.cshtml" />
+    <Content Include="Views\Home\CategoryGallery.cshtml" />
+    <Content Include="Views\Home\CategoryGalleryDetail.cshtml" />
+    <Content Include="Views\Home\CategoryNews.cshtml" />
+    <Content Include="Views\Home\CategoryNewsDetail.cshtml" />
+    <Content Include="Views\Home\CategoryNewsDetail_Involve.cshtml" />
+    <Content Include="Views\Home\Commen_facebook_Categorynews.cshtml" />
+    <Content Include="Views\Home\Commen_facebook_news.cshtml" />
+    <Content Include="Views\Home\contace.cshtml" />
+    <Content Include="Views\Home\Contact.cshtml" />
+    <Content Include="Views\Home\_Tool_Scrip.cshtml" />
+    <Content Include="Views\Home\introduce.cshtml" />
+    <Content Include="Views\Home\MenuDBMobile.cshtml" />
+    <Content Include="Views\Home\MenuDBWeb.cshtml" />
+    <Content Include="Views\Home\News.cshtml" />
+    <Content Include="Views\Home\NewsDetails.cshtml" />
+    <Content Include="Views\Home\NewsDetails_Involve.cshtml" />
+    <Content Include="Views\Home\Setting_Config_catelog.cshtml" />
+    <Content Include="Views\Home\Slieshow.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

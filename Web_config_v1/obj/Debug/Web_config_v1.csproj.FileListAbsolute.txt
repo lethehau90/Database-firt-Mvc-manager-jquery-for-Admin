@@ -382,3 +382,7 @@ E:\project\HubGit\Web_config_v1\bin\System.Net.Http.WebRequest.dll
 E:\project\HubGit\Web_config_v1\bin\System.Net.Http.WebRequest.xml
 E:\project\HubGit\Web_config_v1\bin\WebMatrix.Data.dll
 E:\project\HubGit\Web_config_v1\bin\WebMatrix.Data.xml
+E:\project\HubGit\Web_config_v1\bin\PagedList.dll
+E:\project\HubGit\Web_config_v1\bin\PagedList.Mvc.dll
+E:\project\HubGit\Web_config_v1\bin\PagedList.xml
+E:\project\HubGit\Web_config_v1\bin\PagedList.Mvc.xml

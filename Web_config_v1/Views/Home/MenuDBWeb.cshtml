@@ -1,0 +1,41 @@
+﻿@{
+    string language = Convert.ToString(Session["lang"]);
+}
+@model IList<Web_config_v1.Models.Entity.GroupNew>
+@if (Model.Count() > 0)
+{
+    foreach (var item in Model)
+    {
+        if (language == "vi")
+        {
+            if (item.Tag == ViewBag.active)
+            {
+                <li id="menu-item-@item.Id" class="artist menu-item menu-item-type-post_type current-menu-item menu-item-object-page menu-item-@item.Id first-child">
+                    <a href="/gallery/@item.Tag">@item.Name</a>
+                </li>
+            }
+            else
+            {
+                <li id="menu-item-@item.Id" class="artist menu-item menu-item-type-post_type menu-item-object-page menu-item-@item.Id first-child">
+                    <a href="/gallery/@item.Tag">@item.Name</a>
+                </li>
+            }
+
+        }
+        else
+        {
+            if (item.Tag == ViewBag.active)
+            {
+                <li id="menu-item-@item.Id" class="artist menu-item menu-item-type-post_type current-menu-item menu-item-object-page menu-item-@item.Id first-child">
+                    <a href="/gallery/@item.Tag">@item.NameEn</a>
+                </li>
+            }
+            else
+            {
+                <li id="menu-item-@item.Id" class="artist menu-item menu-item-type-post_type menu-item-object-page menu-item-@item.Id first-child">
+                    <a href="/gallery/@item.Tag">@item.NameEn</a>
+                </li>
+            }
+        }
+    }
+}

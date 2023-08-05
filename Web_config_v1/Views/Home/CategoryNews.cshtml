@@ -1,0 +1,66 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<Web_config_v1.Models.Entity.GroupNewsNewsDetail>
+
+<title>@ViewBag.title</title>
+<meta name="description" content="@ViewBag.Description" />
+<meta name="keywords" content="@ViewBag.Keyword" />
+<div id="content_box">
+    <h1 class="postsby">
+        <span>@ViewBag.title</span>
+    </h1>
+    <section id="latest-posts" class="clearfix">
+        @if (Model.Count > 0)
+        {
+
+            foreach (var item in Model)
+            {
+                <article class="latestPost post-box vertical  ">
+                    <div class="post-img">
+                        <a href="/san-pham/@item.Cateprolevel3/@item.Tag" title="@item.Name" rel="nofollow">
+                            @if (item.Image != "")
+                            {
+                                <img src="@item.Image" class="img-responsive" alt="@item.Name">
+                            }
+                            else
+                            {
+                                <img src="/Images/no-image.jpg" class="img-responsive" alt="@item.Name">
+                            }
+                        </a>
+                    </div>
+                    <div class="post-data">
+                        <div class="post-data-container">
+                            <header>
+                                <h2 class="title post-title"><a href="/san-pham/@item.Cateprolevel3/@item.Tag" title="@item.Name">@item.Name</a></h2>
+                                <div class="post-info">
+                                    <span class="thetime updated">@string.Format("{0:dd/MM/yyyy}", item.Date)</span>
+
+                                </div>
+                            </header>
+                            <div class="post-excerpt">
+                                @Html.Raw(item.Content)
+                            </div>
+                            <div class="readMore">
+                                <a href="/san-pham/@item.Cateprolevel3/@item.Tag" title="@item.Name" rel="nofollow">
+                                    Xem thêm...
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            }
+            <div class="right">
+                @Html.PagedListPager(Model, Page => Url.Action("CategoryNews", "Home", new { Page }), new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded, DisplayPageCountAndCurrentLocation = true, DisplayItemSliceAndTotal = false })
+            </div>
+        }
+        else
+        {
+            {Html.RenderAction("Setting_Config", "Home"); }
+            <div class="row">
+               <b style="padding-left:20px"> @*Trang chưa cập nhật dữ liệu, vui lòng ghé lại sau*@</b>
+            </div>
+        }
+
+        <!--End Pagination-->
+    </section><!--#latest-posts-->
+</div>
