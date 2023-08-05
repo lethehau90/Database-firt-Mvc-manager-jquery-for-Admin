@@ -98,3 +98,6 @@ E:\project\HubGit\Web_config_v1\obj\Release\vi\Web_config_v1.resources.dll
 E:\project\HubGit\Web_config_v1\obj\Release\Web_config_v1.csproj.CopyComplete
 E:\project\HubGit\Web_config_v1\obj\Release\Web_config_v1.dll
 E:\project\HubGit\Web_config_v1\obj\Release\Web_config_v1.pdb
+E:\project\HubGit\Web_config_v1\bin\System.Net.Http.WebRequest.dll
+E:\project\HubGit\Web_config_v1\bin\WebMatrix.Data.dll
+E:\project\HubGit\Web_config_v1\bin\System.Net.Http.WebRequest.xml

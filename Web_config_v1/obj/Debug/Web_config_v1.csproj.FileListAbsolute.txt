@@ -327,7 +327,6 @@ E:\project\HubGit\Web_config_v1\bin\System.Web.Razor.xml
 E:\project\HubGit\Web_config_v1\bin\System.Web.WebPages.xml
 E:\project\HubGit\Web_config_v1\bin\System.Web.WebPages.Deployment.xml
 E:\project\HubGit\Web_config_v1\bin\System.Web.WebPages.Razor.xml
-E:\project\HubGit\Web_config_v1\bin\WebMatrix.Data.xml
 E:\project\HubGit\Web_config_v1\bin\Microsoft.Web.WebPages.OAuth.xml
 E:\project\HubGit\Web_config_v1\bin\WebMatrix.WebData.xml
 E:\project\HubGit\Web_config_v1\bin\DotNetOpenAuth.AspNet.xml
@@ -379,3 +378,7 @@ E:\project\HubGit\Web_config_v1\obj\Debug\vi\Web_config_v1.resources.dll
 E:\project\HubGit\Web_config_v1\obj\Debug\Web_config_v1.csproj.CopyComplete
 E:\project\HubGit\Web_config_v1\obj\Debug\Web_config_v1.dll
 E:\project\HubGit\Web_config_v1\obj\Debug\Web_config_v1.pdb
+E:\project\HubGit\Web_config_v1\bin\System.Net.Http.WebRequest.dll
+E:\project\HubGit\Web_config_v1\bin\System.Net.Http.WebRequest.xml
+E:\project\HubGit\Web_config_v1\bin\WebMatrix.Data.dll
+E:\project\HubGit\Web_config_v1\bin\WebMatrix.Data.xml
