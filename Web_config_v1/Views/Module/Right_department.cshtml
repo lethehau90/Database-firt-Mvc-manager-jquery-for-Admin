@@ -1,0 +1,13 @@
+﻿@model IList<Web_config_v1.Models.Entity.Html>
+           @if (Model.Count > 0)
+            {
+                if (Model[0].images != "" )
+                {
+                    <img class="img-responsive" style="padding-bottom: 5px" src="@Model[0].images" file="@Model[0].images" alt="@Model[0].Ten" width="339" height="226" />
+
+                }
+               @Html.Raw(Model[0].Html_content)
+
+           }
+
+

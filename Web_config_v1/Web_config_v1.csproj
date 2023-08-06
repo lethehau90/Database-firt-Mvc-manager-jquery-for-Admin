@@ -540,6 +540,8 @@
     <Compile Include="Models\Service\Tintuc_Service.cs" />
     <Compile Include="Models\Service\Url_thanhtoan_Service.cs" />
     <Compile Include="Models\Service\User_Service.cs" />
+    <Compile Include="Module\ModuleController.cs" />
+    <Compile Include="Module\Nav_NewsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resources\Lang.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -2450,6 +2452,34 @@
     <Content Include="Views\Home\NewsDetails_Involve.cshtml" />
     <Content Include="Views\Home\Setting_Config_catelog.cshtml" />
     <Content Include="Views\Home\Slieshow.cshtml" />
+    <Content Include="Views\Module\Logo_Header.cshtml" />
+    <Content Include="Views\Module\activity_other.cshtml" />
+    <Content Include="Views\Module\background_footer.cshtml" />
+    <Content Include="Views\Module\background_header.cshtml" />
+    <Content Include="Views\Module\breadcrumb.cshtml" />
+    <Content Include="Views\Module\Footer_Causer_Check_we.cshtml" />
+    <Content Include="Views\Module\Footer_Column_1.cshtml" />
+    <Content Include="Views\Module\Footer_Column_2.cshtml" />
+    <Content Include="Views\Module\Footer_Column_3.cshtml" />
+    <Content Include="Views\Module\Footer_Column_Center.cshtml" />
+    <Content Include="Views\Module\Footer_Follow_fanpage.cshtml" />
+    <Content Include="Views\Module\Footer_introduction.cshtml" />
+    <Content Include="Views\Module\Images_poster.cshtml" />
+    <Content Include="Views\Module\Img_Slieshows.cshtml" />
+    <Content Include="Views\Module\Nav_Header.cshtml" />
+    <Content Include="Views\Module\News_Home.cshtml" />
+    <Content Include="Views\Module\news_Prize_after.cshtml" />
+    <Content Include="Views\Module\Right_department.cshtml" />
+    <Content Include="Views\Module\Right_News_hightlights.cshtml" />
+    <Content Include="Views\Module\Right_product_hightlights.cshtml" />
+    <Content Include="Views\Module\Service_other.cshtml" />
+    <Content Include="Views\Nav_News\Contace.cshtml" />
+    <Content Include="Views\Nav_News\Information.cshtml" />
+    <Content Include="Views\Nav_News\Muti_Group_Menu_1.cshtml" />
+    <Content Include="Views\Nav_News\Muti_Group_Menu_2.cshtml" />
+    <Content Include="Views\Nav_News\Muti_Group_Menu_3.cshtml" />
+    <Content Include="Views\Nav_News\Nav_Product.cshtml" />
+    <Content Include="Views\Nav_News\News.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

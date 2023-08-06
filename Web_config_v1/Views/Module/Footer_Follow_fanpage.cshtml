@@ -1,0 +1,41 @@
+﻿@model IList<Web_config_v1.Models.Entity.Html>
+<div class="f-widget f-widget-3 last">
+    <style type="text/css">
+        #text-8 .beautifulck_title {
+        }
+
+        #text-8 .beautifulck {
+        }
+    </style>
+    <div id="text-8" class="widget widget_text">
+        <div class="beautifulck ">
+            <div class="beautifulck_title">
+                <div class="beautifulck_titletext">
+                    @if (Model.Count > 0)
+                    {
+                       <h3 class="widget-title">
+                            @Model[0].Ten
+                        </h3>
+                    }
+                    else
+                    {
+                        <h3 class="widget-title">
+                            THEO DÕI FANPAGE
+                        </h3>
+                    }
+                    
+                </div>
+            </div>
+            <div class="textwidget">
+                @if (Model.Count > 0)
+                {
+                    @Html.Raw(Model[0].Html_content)
+                }
+                else
+                {
+                   <div>Bạn chưa cập nhật fanpage</div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

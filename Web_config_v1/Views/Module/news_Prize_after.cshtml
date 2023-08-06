@@ -1,0 +1,12 @@
+﻿@model IList<Web_config_v1.Models.Entity.information>
+@if(Model.Count>0)
+{
+    <div class="su-box su-box-style-Soft" style="border-color:#156387;">
+            <div class="su-box-title" style="background-color:#156387;color:#fff;">@Model[0].Name</div>
+            <div class="su-box-content su-clearfix">
+               <div class="row" style="padding: 0 10px">
+                   @Html.Raw(Model[0].Detail)
+               </div>
+        </div>
+    </div>
+}

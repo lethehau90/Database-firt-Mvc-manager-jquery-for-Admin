@@ -1,0 +1,19 @@
+﻿
+@if (ViewBag.active == "san-pham")
+{
+    <li id="menu-item-249" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-206">
+        <a href="">
+            <i class="fa fa-arrows"></i> SẢN PHẨM
+        </a>
+        @{Html.RenderAction("Muti_Group_Menu_1", "Nav_News");}
+    </li>
+}
+else
+{
+    <li id="menu-item-249" class="6">
+        <a href="">
+            <i class="fa fa-arrows"></i> SẢN PHẨM
+        </a>
+        @{Html.RenderAction("Muti_Group_Menu_1", "Nav_News");}
+    </li>
+}
