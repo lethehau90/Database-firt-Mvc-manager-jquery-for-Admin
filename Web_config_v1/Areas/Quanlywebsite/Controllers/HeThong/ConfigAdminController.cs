@@ -50,6 +50,12 @@ namespace Web_config_v1.Areas.Quanlywebsite.Controllers.HeThong
              string Lang, string Helpsize, string Location, string ToolScrip, string Icon,
             string pageging1, string pageging2, string pageging3, string pageging4, string pageging5)
         {
+            pageging1 = (pageging1 == "") ? null : pageging1;
+            pageging2 = (pageging2 == "") ? null : pageging2;
+            pageging3 = (pageging3 == "") ? null : pageging3;
+            pageging4 = (pageging4 == "") ? null : pageging4;
+            pageging5 = (pageging5 == "") ? null : pageging5;
+
             Config_Model data = new Config_Model();//gọi model data
             data.Id = Convert.ToInt16(Id);
             data.Mail_Smtp = Mail_Smtp;

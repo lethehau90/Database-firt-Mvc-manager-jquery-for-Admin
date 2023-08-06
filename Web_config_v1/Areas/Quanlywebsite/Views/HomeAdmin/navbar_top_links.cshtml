@@ -1,11 +1,14 @@
-﻿@*<div id=""> <!--sidebar-wrapper-->
-    <div class="" role="navigation"> <!--navbar-default sidebar-->
-        <div class="sidebar-nav navbar-collapse"><!--sidebar-nav-->
+﻿@{
+    var WebConfigLayout = System.Configuration.ConfigurationManager.AppSettings["WebConfigLayout"];
+}
+@*<div id=""> <!--sidebar-wrapper-->
+        <div class="" role="navigation"> <!--navbar-default sidebar-->
+            <div class="sidebar-nav navbar-collapse"><!--sidebar-nav-->
+
+            </div>
 
         </div>
-       
-    </div>
-</div>*@
+    </div>*@
 <ul class="nav" id="side-menu">
     <li class="sidebar-search">
         <div class="input-group custom-search-form" style="margin:15px">
@@ -21,13 +24,13 @@
     <!------------------------2 cấp menu------------------------------------------>
     <!--thông tin người sử dụng-->
     <li>
-        <a ><i class="fa fa-flag"></i> Thông Tin<span class="fa arrow"></span></a>
+        <a><i class="fa fa-flag"></i> Thông Tin<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
             <li>
                 <a href="@Url.Action("Read", "UserAdmin")"><i class="fa fa-caret-right"></i> Người dùng đăng nhập</a>
             </li>
             <li>
-                <a ><i class="fa  fa-plus-circle"></i> Mail hộp thư khách<span class="fa arrow"></span></a>
+                <a><i class="fa  fa-plus-circle"></i> Mail hộp thư khách<span class="fa arrow"></span></a>
                 <ul class="nav nav-third-level">
                     <li>
                         <a href="@Url.Action("Read_active", "ContactAdmin")"><i class="fa fa-caret-right"></i> Đã xem (@Html.Action("_count_contace_active", "ContactAdmin"))</a>
@@ -38,8 +41,8 @@
 
                 </ul>
             </li>
-            <li>
-                <a ><i class="fa  fa-plus-circle"></i> Thành viên ĐK<span class="fa arrow"></span></a>
+            <li class="dkThanhVien">
+                <a><i class="fa fa-plus-circle"></i> Thành viên ĐK<span class="fa arrow"></span></a>
                 <ul class="nav nav-third-level">
                     <li>
                         <a href="@Url.Action("Read_active", "ThanhvienAdmin")"><i class="fa fa-caret-right"></i> Đã kích hoạt (@Html.Action("_count_contace_active", "ThanhvienAdmin"))</a>
@@ -56,14 +59,14 @@
 
     <!--Cài đặt người sử dụng-->
     <li>
-        <a ><i class="fa  fa-windows"></i> Danh Mục<span class="fa arrow"></span></a>
+        <a><i class="fa  fa-windows"></i> Danh Mục<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
             <li><a href="@Url.Action("Read", "CodeHtmlAdmin")"><i class="fa fa-caret-right"></i> Mã code HTML</a></li>
             <li><a href="@Url.Action("Read", "ImagesAdvertiseAdmin")"><i class="fa fa-caret-right"></i> Hình Ảnh</a></li>
-            <li><a href="@Url.Action("Read", "NewInformationAdmin")"><i class="fa fa-caret-right"></i> Tin Trang chủ</a></li>
-            <li><a href="@Url.Action("Readus", "NewInformationAdmin")"><i class="fa fa-caret-right"></i> Về Chúng Tôi</a></li>
+            <li class="tintrangchu"><a href="@Url.Action("Read", "NewInformationAdmin")"><i class="fa fa-caret-right"></i> Tin Trang chủ</a></li>
+            <li class="vechungtoi"><a href="@Url.Action("Readus", "NewInformationAdmin")"><i class="fa fa-caret-right"></i> Về Chúng Tôi</a></li>
             <li><a href="@Url.Action("Read_info", "NewInformationAdmin")"><i class="fa fa-caret-right"></i> Giới thiệu</a></li>
-            <li><a href="@Url.Action("Read", "TinTucAdmin")"><i class="fa fa-caret-right"></i> Tin Tức</a></li>
+            <li class="tintuc"><a href="@Url.Action("Read", "TinTucAdmin")"><i class="fa fa-caret-right"></i> Tin Tức</a></li>
             <li><a href="@Url.Action("Read", "SlideShowAdmin")"><i class="fa fa-caret-right"></i> Trình chiếu SlideShow</a></li>
         </ul>
         <!-- /.nav-second-level -->
@@ -71,7 +74,7 @@
 
     <!--Cài đặt tin tức-->
     <li>
-        <a ><i class="fa fa-rss-square"></i> Quản lý Tin Thể Loại<span class="fa arrow"></span></a>
+        <a><i class="fa fa-rss-square"></i> Quản lý Tin Thể Loại<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
             <li>
                 <a href="@Url.Action("Read", "CategoryNewsAdmin")"><i class="fa fa-caret-right"></i> Danh Mục</a>
@@ -80,7 +83,7 @@
                 <a href="@Url.Action("Read", "CategoryNewsDetailsAdmin")"><i class="fa fa-caret-right"></i> Danh Sách Bài Đăng</a>
             </li>
             <li>
-                <a ><span class="fa arrow"></span><i class="fa  fa-plus-circle"></i> Bài Đăng Theo Nhóm</a>
+                <a><span class="fa arrow"></span><i class="fa  fa-plus-circle"></i> Bài Đăng Theo Nhóm</a>
                 @{Html.RenderAction("Muti_Group_Menu_1", "MenuGroupNewsMuti");}
             </li>
 
@@ -89,12 +92,12 @@
     </li>
 
     <!--cài đặt sản phẩm-->
-    <li class="">
-        <a ><i class="fa fa-shopping-cart"></i> Quản lý sản phẩm<span class="fa arrow"></span></a>
+    <li class="quanlysanpham">
+        <a><i class="fa fa-shopping-cart"></i> Quản lý sản phẩm<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
             <!--sản phẩm-->
             <li>
-                <a ><i class="fa  fa-plus-circle"></i> Sản Phẩm<span class="fa arrow"></span></a>
+                <a><i class="fa  fa-plus-circle"></i> Sản Phẩm<span class="fa arrow"></span></a>
                 <ul class="nav nav-third-level">
                     <li>
                         <a href="@Url.Action("Read", "CategotyproductAdmin")"><i class="fa fa-caret-right"></i> Danh Mục</a>
@@ -103,14 +106,14 @@
                         <a href="@Url.Action("Read", "CategotyproductdetailAdmin")"><i class="fa fa-caret-right"></i> Danh Sách Bài Đăng</a>
                     </li>
                     <li>
-                       <a ><span class="fa arrow"></span><i class="fa  fa-plus-circle"></i> Bài Đăng Theo Nhóm</a>
-                       @{Html.RenderAction("Muti_Group_Menu_1", "MenuGroupproductMuti");}
+                        <a><span class="fa arrow"></span><i class="fa  fa-plus-circle"></i> Bài Đăng Theo Nhóm</a>
+                        @{Html.RenderAction("Muti_Group_Menu_1", "MenuGroupproductMuti");}
                     </li>
                 </ul>
             </li>
             <!--cấu hình đặc tính-->
             <li>
-                <a ><i class="fa  fa-plus-circle"></i> Cấu hình đặc tính<span class="fa arrow"></span></a>
+                <a><i class="fa  fa-plus-circle"></i> Cấu hình đặc tính<span class="fa arrow"></span></a>
                 <ul class="nav nav-third-level">
                     <li>
                         <a href="@Url.Action("Read", "MausacAdmin")"><i class="fa fa-caret-right"></i> Màu sắc</a>
@@ -139,7 +142,7 @@
             </li>
             <!--khuyến mãi-->
             <li>
-                <a ><i class="fa  fa-plus-circle"></i> Khuyến mãi<span class="fa arrow"></span></a>
+                <a><i class="fa  fa-plus-circle"></i> Khuyến mãi<span class="fa arrow"></span></a>
                 <ul class="nav nav-third-level">
                     <li>
                         <a href="@Url.Action("Read", "MacodeKhuyenMaiAdmin")"><i class="fa fa-caret-right"></i> Mã giảm giá</a>
@@ -162,13 +165,12 @@
         <!-- /.nav-second-level -->
     </li>
     <!------------------------1 cấp menu------------------------------------------>
-
     <!--Thống Kê-->
-    <li>
-        <a ><i class="fa fa-bar-chart-o"></i> Thống Kê<span class="fa arrow"></span></a>
+    <li class="quanlythongke">
+        <a><i class="fa fa-bar-chart-o"></i> Thống Kê<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
             <li>
-                <a ><i class="fa  fa-plus-circle"></i> Hóa đơn bán hàng<span class="fa arrow"></span></a>
+                <a><i class="fa  fa-plus-circle"></i> Hóa đơn bán hàng<span class="fa arrow"></span></a>
                 <ul class="nav nav-third-level">
                     <li>
                         <a href="@Url.Action("List_donhang","Donhangadmin")">
@@ -217,7 +219,7 @@
                             <span>100 đơn hàng mới nhất</span>
                         </a>
                     </li>
-                   
+
                 </ul>
             </li>
 
@@ -227,7 +229,7 @@
 
     <!--cài đặt cấu hình-->
     <li>
-        <a ><i class="fa fa-cogs"></i> Hệ thống<span class="fa arrow"></span></a>
+        <a><i class="fa fa-cogs"></i> Hệ thống<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
             <li>
                 <a href="@Url.Action("Read", "ConfigAdmin")"><i class="fa fa-caret-right"></i> Cấu Hình</a>
@@ -239,28 +241,28 @@
 
     <!------------------------3 cấp menu------------------------------------------>
     <li class="hidden">
-        <a ><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
+        <a><i class="fa fa-sitemap fa-fw"></i> Multi-Level Dropdown<span class="fa arrow"></span></a>
         <ul class="nav nav-second-level">
             <li>
-                <a >Second Level Item</a>
+                <a>Second Level Item</a>
             </li>
             <li>
-                <a >Second Level Item</a>
+                <a>Second Level Item</a>
             </li>
             <li>
-                <a >Third Level <span class="fa arrow"></span></a>
+                <a>Third Level <span class="fa arrow"></span></a>
                 <ul class="nav nav-third-level">
                     <li>
-                        <a >Third Level Item</a>
+                        <a>Third Level Item</a>
                     </li>
                     <li>
-                        <a >Third Level Item</a>
+                        <a>Third Level Item</a>
                     </li>
                     <li>
-                        <a >Third Level Item</a>
+                        <a>Third Level Item</a>
                     </li>
                     <li>
-                        <a >Third Level Item</a>
+                        <a>Third Level Item</a>
                     </li>
                 </ul>
                 <!-- /.nav-third-level -->
@@ -271,4 +273,20 @@
 
 </ul>
 
+<script type="text/javascript">
+    if ("@WebConfigLayout" == "HungThinh") {
+
+        $("#side-menu .dkThanhVien").hide();
+
+        //danh muc
+        $("#side-menu .tintrangchu").hide();
+        $("#side-menu .vechungtoi").hide();
+        $("#side-menu .tintuc").hide();
+
+        $("#side-menu .quanlysanpham").hide();
+        $("#side-menu .quanlythongke").hide();
+
+    }
+
+</script>
 
