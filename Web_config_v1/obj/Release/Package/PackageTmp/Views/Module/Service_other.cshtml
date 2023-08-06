@@ -1,0 +1,51 @@
+﻿@model IList<Web_config_v1.Models.Entity.GroupNew>
+@if(Model.Count>0)
+{
+    
+    <div class="su-box su-box-style-Soft" style="border-color:#156387;border-radius:1px;-moz-border-radius:1px;-webkit-border-radius:1px;">
+    @*<h2 style="text-align: center;"><span style="font-size: 24pt; color: #156387;"><strong>DỊCH VỤ HOT</strong></span></h2>*@
+    <div class="su-box-title" style="background-color:#156387;color:#fff;">DỊCH VỤ SẢN PHẨM HOT</div>
+    @*<p style="text-align: center;">
+        <em>Liên hệ: <a href="tel_3A0964128687"><span style="color: #ff0000;"><strong>0964 12 8687</strong></span></a> để được tư vấn chi tiết từng dịch vụ</em>
+    </p>*@
+        <br />
+    <div class="row">
+        <div class="col-lg-12">
+            @foreach (var item in Model)
+{
+    <div class="col-lg-3 col-xs-6 col-md-3 bodyproduct">
+        <p>
+            <a href="/san-pham/@item.Tag" class="">
+                @if (item.Logogroup == null || item.Logogroup == "")
+                {
+                    <img class=" img-responsive center" src="/Images/no-image.jpg" file="/Images/no-image.jpg" alt="@item.Name" width="385" height="272" />
+                }
+                else
+                {
+                    <img class=" img-responsive center" src="@item.Logogroup" file="@item.Logogroup" alt="@item.Name" width="" height="272" />
+                }
+            </a>
+        </p>
+        <p style="text-align: center;">
+            <a href="/san-pham/@item.Tag" class="su-button su-button-style-stroked" style="color:#fff;background-color:#156387;border-color:#156387;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank">
+                <span style="color:#fff;padding:6px 16px;font-size:13px;line-height:20px;border-color:#156387;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;text-shadow:0px 0px 0px #000000;-moz-text-shadow:0px 0px 0px #000000;-webkit-text-shadow:0px 0px 0px #000000">
+                    @item.Name
+                </span>
+            </a> <a href="/san-pham/@item.Tag" class="su-button su-button-style-ghost" style="color:#156387;background-color:#156387;border-color:#156387;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px" target="_blank">
+
+            </a>
+
+    </div>
+}
+           
+       
+        </div>
+    </div>
+        </div>
+}
+<link href="/Content/cssCustom.css" rel="stylesheet" />
+<style type="text/css">
+    .bodyproduct{
+        height: 200px !important;
+    }
+</style>

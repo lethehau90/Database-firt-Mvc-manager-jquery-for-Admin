@@ -1,0 +1,72 @@
+﻿@using PagedList;
+@using PagedList.Mvc;
+@model IPagedList<Web_config_v1.Models.Entity.GroupNewsNewsDetail>
+@{
+    string language = Convert.ToString(Session["lang"]);
+}
+
+    <div class="pad10h blog-section">
+        @if (Model.Any())
+        {
+            <title>@ViewBag.title</title>
+            <meta name="description" content="@ViewBag.Description" />
+            <meta name="keywords" content="@ViewBag.Keyword" />
+            foreach (var item in Model)
+            {
+                if (language == "vi")
+                {
+                    <div class="blog-post-item clearfix">
+                        <div class="blog_left thumb">
+                            <a href="/gallery/@item.Cateprolevel3/@item.Tag">
+                                <img width="350" height="289" src="@item.Image" class="attachment-full size-full wp-post-image" alt="@item.Name"
+                                     srcset="@item.Image 350w,
+                                 @item.Image 300w" sizes="(max-width: 350px) 100vw, 350px">
+                            </a>
+                        </div>
+                        <div class="blog_right post-info">
+                            <h1><a href="/gallery/@item.Cateprolevel3/@item.Tag">@item.Name</a></h1>
+                            <span class="day">@item.Date.Value.ToString("dd/MM/yyyy")</span>
+                            <div class="line"></div>
+                            <p>
+                                @Html.Raw(item.Content) ...
+                            </p><div class="more_info"> <a href="/gallery/@item.Cateprolevel3/@item.Tag">Xem thêm</a></div>
+                        </div>
+                    </div>
+                }
+                else
+                {
+                    <div class="blog-post-item clearfix">
+                        <div class="blog_left thumb">
+                            <a href="/gallery/@item.Cateprolevel3/@item.Tag">
+                                <img width="350" height="289" src="@item.Image" class="attachment-full size-full wp-post-image" alt="@item.NameEn"
+                                     srcset="@item.Image 350w,
+                                 @item.Image 300w" sizes="(max-width: 350px) 100vw, 350px">
+                            </a>
+                        </div>
+                        <div class="blog_right post-info">
+                            <h1><a href="/gallery/@item.Cateprolevel3/@item.Tag">@item.NameEn</a></h1>
+                            <span class="day">@item.Date.Value.ToString("dd/MM/yyyy")</span>
+                            <div class="line"></div>
+                            <p>
+                                @Html.Raw(item.ContentEn) ...
+                            </p><div class="more_info"> <a href="/gallery/@item.Cateprolevel3/@item.Tag">more</a></div>
+                        </div>
+                    </div>
+                }
+            }
+
+            <div class="wp-pagenavi">
+                @Html.PagedListPager(Model, Page => Url.Action("CategoryGallery", "Home", new { Page }), new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded, DisplayPageCountAndCurrentLocation = false, DisplayItemSliceAndTotal = false })
+            </div>
+        }
+        else
+        {
+            { Html.RenderAction("Setting_Config", "Home"); }
+            <div class="row">
+                <b style="padding-left:20px"> @*Trang chưa cập nhật dữ liệu, vui lòng ghé lại sau*@</b>
+            </div>
+        }
+
+    </div>
+
+<link href="~/Content/Phantrang.css" rel="stylesheet" />

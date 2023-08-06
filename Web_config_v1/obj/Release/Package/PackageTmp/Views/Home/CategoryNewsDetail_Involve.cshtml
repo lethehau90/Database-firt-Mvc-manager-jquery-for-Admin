@@ -1,0 +1,42 @@
+﻿@model IList<Web_config_v1.Models.Entity.GroupNewsNewsDetail>
+@if (Model.Count > 0)
+{
+    <div class="related-posts">
+        <div class="postauthor-top">
+            <h3 class="noidungtitle">Bài viết liên quan</h3>
+        </div>
+        <div class="noidungcontent">
+            <ul>
+                @foreach (var item in Model)
+                {
+                    <li class="post-box horizontal-small">
+                        <div class="horizontal-container">
+                            <div class="horizontal-container-inner">
+                                <div class="post-img">
+                                    <a rel="nofollow" href="/san-pham/@item.Cateprolevel3/@item.Tag" title="@item.Name">
+                                        @if (item.Image != "")
+                                        {
+                                            <img src="@item.Image" class="img-responsive" alt="@item.Name">
+                                        }
+                                        else
+                                        {
+                                            <img src="/Images/no-image.jpg" class="img-responsive" alt="@item.Name">
+                                        }
+
+                                    </a>
+                                </div>
+                                <div class="post-data">
+                                    <div class="post-data-container">
+                                        <div class="post-title"> <a href="/san-pham/@item.Cateprolevel3/@item.Tag" title="@item.Name">@item.Name</a> </div>
+                                        <div class="post-info"> <span class="thetime updated">@string.Format("{0:dd/MM/yyyy}", item.Date)</span> </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                }
+
+            </ul>
+        </div>
+    </div>
+}

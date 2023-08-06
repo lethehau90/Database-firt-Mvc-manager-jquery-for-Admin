@@ -1,0 +1,42 @@
+﻿@model IList<Web_config_v1.Models.Entity.Tintuc>
+           @if(Model.Count > 0)
+           {
+               <div class="beautifulck_title">
+                    <div class="beautifulck_titletext">
+                        <h3 class="widget-title">Dịch Vụ Nổi Bật</h3>
+                    </div>
+                </div>
+               
+                <div class="beautifulck ">
+                    <div class="textwidget">
+                        <div class="su-accordion">
+                            <ul class="sub-news">
+                                @foreach (var item in Model)
+                                {
+
+                                    <li>
+                                        <a href="/dich-vu/@item.Tag"><i class="su-spoiler-icon"></i> @item.Name</a>
+                                    </li>
+
+
+                                }
+                            </ul>   
+                        </div>
+                    </div>
+                </div>
+           }
+           
+<style type="text/css">
+    .sub-news li{
+        padding:5px 0px;
+    }
+    .sub-news li a {
+      
+        color: #000;
+        text-decoration: none;
+    }
+
+        .sub-news li a:hover {
+            color: #337ab7;
+        }
+</style>

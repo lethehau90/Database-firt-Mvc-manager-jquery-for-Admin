@@ -1,0 +1,34 @@
+﻿@model IList<Web_config_v1.Models.Entity.Html>
+@{
+    string language = Convert.ToString(Session["lang"]);
+}
+
+@if (Model.Any())
+{
+    <div class="footer-right idx_1">
+        <div class="textwidget">
+            @if (language == "vi")
+            {
+                <h3 class="footer-widget-title mail-list">@Model.FirstOrDefault().Ten</h3>
+                <div class="clear"></div>
+                <div id="">
+                    <div id="mc_embed_signup">
+                        @Html.Raw(Model.FirstOrDefault().Html_content)
+                    </div>
+                </div>
+            }
+            else
+            {
+                <h3 class="footer-widget-title mail-list">@Model.FirstOrDefault().TenEn</h3>
+                <div class="clear"></div>
+                <div id="">
+                    <div id="mc_embed_signup">
+                        @Html.Raw(Model.FirstOrDefault().Html_contentEn)
+                    </div>
+                </div>
+            }
+
+        </div>
+    </div>
+}
+

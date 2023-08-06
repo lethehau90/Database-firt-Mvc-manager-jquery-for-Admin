@@ -1,0 +1,53 @@
+﻿@model IList<Web_config_v1.Models.Entity.SlideShow>
+@if (Model.Count > 0)
+{
+    <title>@ViewBag.title</title>
+    <meta name="description" content="@ViewBag.Description" />
+    <meta name="keywords" content="@ViewBag.Keyword" />
+    <div id="content_box">
+        <div id="post-819" class="g post post-819 type-post status-publish format-standard hentry category-dich-vu-su-kien category-to-chuc-su-kien-event">
+            <div class="single_post">
+                <div class="breadcrumb" xmlns:v="http://rdf.data-vocabulary.org/#">
+                    <div>
+                        <i class="fa fa-home"></i>
+                    </div>
+                    <div typeof="v:Breadcrumb" class="root">
+                        <a rel="v:url" property="v:title" href="/">Home</a>
+                    </div>
+                    <div>
+                        <i class="fa fa-caret-right"></i>
+                    </div>
+                    <div typeof="v:Breadcrumb">
+                        @ViewBag.title
+                    </div>
+
+
+
+                </div>
+                <h1 class="noidungtitle" itemprop="headline">@Model[0].Name</h1>
+                <!--.headline_area-->
+                <div class="post-single-content box mark-links entry-content">
+                    <div class="noidungcontent">
+                        @if (Model[0].Image != "")
+                        {
+                            <img class=" img-responsive" src="@Model[0].Image" file="/Images/no-image.jpg" alt="@Model[0].Name"  />
+                        }
+                        @Html.Raw(Model[0].Detail)
+
+                    </div>
+                </div>
+                <!--.post-content box mark-links-->
+            </div>
+
+
+        </div>
+    </div>
+}
+else
+{
+    { Html.RenderAction("Setting_Config", "Home"); }
+    <div class="row">
+        <b style="padding-left:20px"> @*Trang chưa cập nhật dữ liệu, vui lòng ghé lại sau.*@</b>
+    </div>
+}
+

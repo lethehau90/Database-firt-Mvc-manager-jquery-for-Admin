@@ -1,0 +1,49 @@
+.ex_left, .ex_right{
+    float: left;
+    width: 50%;
+    }
+.ex_left img{
+        max-width: 90%;
+    }
+
+.ex_right h1{
+        font-size: 24px;
+    }
+.ex_right h2{
+        font-size: 18px;
+    }
+.ex_right .time, .ex_right .date{
+    color: #9E9E9E;
+    }
+.short_line{
+    width: 20px;
+    border-bottom: 1px solid #000;
+    margin: 20px 0px;
+    }
+.ex_item{
+    border-bottom: 1px solid #000;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    }
+.ex_right h2, .ex_right h1{
+    margin: 0px;
+    }
+.ex_right h2{
+    margin-top: 5px;
+    }
+.ex_right p.date, .ex_right p.time{
+        margin: 5px 0px;
+    }
+.read_more {
+    float: right;
+    margin: 10px auto;
+    color: #9E9E9E;
+    font-size: 14px;
+    }
+.ex_excerpt{
+    font-size: 13px;
+  	line-height:20px !important;
+    }
+.ex_item:last-child{
+	border-bottom: 0px solid #fff;
+}

@@ -1,1 +1,22 @@
-﻿@{Html.RenderAction("Setting_Config", "Home"); }
+﻿
+@{Html.RenderAction("Setting_Config", "Home"); }
+
+@if (ViewBag.WebConfigLayout != "HungThinh")
+{
+    { Html.RenderAction("breadcrumb", "Module"); }<!--breakcrm=um-->
+    <div class="post-content box mark-links entry-content">
+        @{Html.RenderAction("News_Home", "Module");}  <!--tin trang chủ-->
+        @*@{Html.RenderAction("activity_other", "Module");}*@  <!--lĩnh vực hoạt động-->
+        @{Html.RenderAction("Images_poster", "Module");}  <!--images poster-->
+        @{Html.RenderAction("Service_other", "Module");}  <!--service other-->
+        @{Html.RenderAction("news_Prize_after", "Module");}  <!--giải thưởng sau hoạt động-->
+        <!-- kk-star-ratings -->
+    </div>
+}
+
+@if (ViewBag.WebConfigLayout == "HungThinh")
+{
+    { Html.RenderAction("Img_Slieshows", "Module"); }
+}
+
+

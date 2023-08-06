@@ -1,0 +1,77 @@
+﻿@model IList<Web_config_v1.Models.Entity.SlideShow>
+@{
+    string language = Convert.ToString(Session["lang"]);
+}
+@if (Model.Count > 0)
+{
+    <div id="slideshow">
+        <div id="slides">
+
+            @foreach (var item in Model)
+            {
+                if (language == "vi")
+                {
+                    <div class="pic-item" pid="16275">
+                        <a href="" title="@item.Name">
+                            <img width="585" height="650" src="@item.Image"
+                                 class="attachment-full size-full wp-post-image" alt="@item.Name"
+                                 srcset="@item.Image 585w "
+                                 sizes="(max-width: 585px) 100vw, 585px" />
+                        </a>
+
+                        <div class="info">
+                            @Html.Raw(item.Detail)
+                            <br class="clear" />
+                            <a href="@item.Image" class="share"
+                               title="" rel="lightbox"><img src="../hungthinh/wp-content/plugins/as_sliders/images/open.png" /></a>
+
+                            <a class='share' title='Share on pinterest' href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;http://assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());'>
+                                <img class='pin' src='../hungthinh/wp-content/plugins/as_sliders/images/p.png' />
+                            </a>
+
+                        </div>
+                        <!--info-->
+                    </div>
+                }
+                else
+                {
+                    <div class="pic-item" pid="16275">
+                        <a href="" title="@item.NameEn">
+                            <img width="585" height="650" src="@item.Image"
+                                 class="attachment-full size-full wp-post-image" alt="@item.NameEn"
+                                 srcset="@item.Image"
+                                 sizes="(max-width: 585px) 100vw, 585px" />
+                        </a>
+
+                        <div class="info">
+                            @Html.Raw(item.DetailEn)
+                            <br class="clear" />
+                            <a href="@item.Image" class="share"
+                               title="" rel="lightbox"><img src="../hungthinh/wp-content/plugins/as_sliders/images/open.png" /></a>
+
+                            <a class='share' title='Share on pinterest' href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;http://assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());'>
+                                <img class='pin' src='../hungthinh/wp-content/plugins/as_sliders/images/p.png' />
+                            </a>
+
+                        </div>
+                        <!--info-->
+                    </div>
+                }
+
+            }
+
+        </div>
+        <div class="clear"></div>
+        <style>
+
+            #biginfo img.fb {
+                content: url("../hungthinh/wp-content/plugins/as_sliders/images/fb.png");
+            }
+
+            #biginfo img.pin {
+                content: url("../hungthinh/wp-content/plugins/as_sliders/images/pin.png");
+            }
+        </style>
+
+    </div>
+}

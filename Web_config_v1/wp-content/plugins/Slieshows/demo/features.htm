@@ -1,0 +1,68 @@
+﻿
+<link rel='stylesheet' id='camera-css' href='/wp-content/plugins/Slieshows//css/camera.css' type='text/css' media='all'>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    a {
+        color: #09f;
+    }
+
+        a:hover {
+            text-decoration: none;
+        }
+
+    #back_to_camera {
+        clear: both;
+        display: block;
+        height: 80px;
+        line-height: 40px;
+        padding: 20px;
+    }
+
+    .fluid_container {
+        margin: 0 auto;
+        max-width: 1000px;
+        width: 90%;
+    }
+</style>
+<!--///////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//		Scripts
+//
+///////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<script type='text/javascript' src='/wp-content/plugins/Slieshows//scripts/jquery.min.js'></script>
+<script type='text/javascript' src='/wp-content/plugins/Slieshows//scripts/jquery.mobile.customized.min.js'></script>
+<script type='text/javascript' src='/wp-content/plugins/Slieshows//scripts/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='/wp-content/plugins/Slieshows//scripts/camera.js'></script>
+
+<script>
+    jQuery(function () {
+
+        jQuery('#camera_wrap_3').camera({
+            height: '56%',
+            pagination: false,
+            thumbnails: true,
+            imagePath: '/wp-content/plugins/Slieshows//images/'
+        });
+
+    });
+</script>
+<div class="fluid_container">
+    <div class="camera_wrap camera_emboss" id="camera_wrap_3">
+        <div data-thumb="/wp-content/plugins/Slieshows//images/slides/thumbs/big_bunny_fake.jpg" data-src="/wp-content/plugins/Slieshows//images/slides/big_bunny_fake.jpg">
+            <iframe src="http://player.vimeo.com/video/2203727" width="100%" height="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+        <div data-thumb="/wp-content/plugins/Slieshows//images/slides/thumbs/leaf.jpg" data-src="/wp-content/plugins/Slieshows//images/slides/leaf.jpg">
+            <div style="position:absolute; top:5%; left:5%; background:#000; color:#fff; padding:5px; width:25%" class="fadeIn camera_effected">This is an HTML element included in the transition effect</div>
+        </div>
+        <div data-thumb="/wp-content/plugins/Slieshows//images/slides/thumbs/road.jpg" data-src="/wp-content/plugins/Slieshows//images/slides/road.jpg" data-time="1500" data-trasperiod="4000" data-link="http://www.google.com/" data-target="_blank">
+            <div class="camera_caption fadeFromBottom">
+                Changed the time and the transition time of this slide
+            </div>
+        </div>
+    </div><!-- #camera_wrap_3 -->
+</div> 

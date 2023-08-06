@@ -1,0 +1,88 @@
+#slides {
+	width: 720px;
+	max-width: 80%;
+	margin:0px auto;
+	overflow:hidden;
+}
+
+#slides img {
+	max-width: 100%;
+	width: auto;
+    width: inherit !important;
+    margin: 0 auto;
+}
+
+
+.info{
+	text-align:right;
+	padding:10px;
+	position:absolute;
+	width:auto !important;
+	height:auto !important;
+	right:0;
+	bottom:0;
+	background:url(../images/pic_title.png) repeat;
+	color:#FFFFFF;
+	display:none;
+	line-height:140%;
+	font-style:italic;
+	font-weight:100;
+}
+.info strong{
+	margin-right:3px;
+	text-transform:capitalize;
+}
+.info span{
+	font-style:normal;
+}
+.info a.share{
+	float:right;
+	margin-top:5px;
+	margin-left:17px;
+	margin-right:3px;
+}
+#biginfo{
+	font-weight:100;
+}
+#biginfo a.share{
+	margin-right:7px;
+}
+
+#overlay{
+	color:#565656;
+	opacity: 1 !important;
+}
+#numberDisplay,#bottomNav{
+	display:none!important;
+}
+#imageData #imageDetails {
+	width: 100%!important;
+}
+#biginfotext{
+	float:left;
+	padding-bottom: 10px;
+}
+#share_it{
+	float:right;
+	margin-top: 7px;
+}
+#slideshow{
+	position: relative;
+}
+
+.owl-prev{
+	z-index:100;
+	left: 0px;
+	cursor: url(../images/left.png) 20 20, auto !important;
+}
+.owl-next{
+	z-index:100;
+	right: 0px;
+	cursor: url(../images/right.png) 20 20, auto !important;
+}
+.info{
+	z-index:200;
+}
+.pic-item a{
+	cursor: url(../images/center.png) 20 20, auto;
+}
