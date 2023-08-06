@@ -11,6 +11,8 @@ using Web_config_v1.Models.Data;
 using Web_config_v1.Models.Entity;
 using System.Web.Security;
 using Web_config_v1.Models.Command;
+using System.Globalization;
+using System.Threading;
 
 namespace Web_config_v1
 {
@@ -87,17 +89,24 @@ namespace Web_config_v1
         }
         protected void Application_BeginRequest(object sender, EventArgs e)
         {
-            HttpCookie cookie = HttpContext.Current.Request.Cookies["Language"];
-            if (cookie != null && cookie.Value != null)
+            HttpContext context = HttpContext.Current;
+            var languageSession = "vi";
+            if (context != null && context.Session != null)
             {
-                System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo(cookie.Value);
-                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(cookie.Value);
+                if (context.Session["lang"] == null)
+                {
+                    context.Session["lang"] = "vi";
+                }
+
+                languageSession = context.Session["lang"] != null ? context.Session["lang"].ToString() : "vi";
             }
             else
             {
-                System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("vi");
-                System.Threading.Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo("vi");
+                HttpContext.Current.Application["lang"] = "vi";
             }
+
+            Thread.CurrentThread.CurrentUICulture = new CultureInfo(languageSession);
+            Thread.CurrentThread.CurrentCulture = new CultureInfo(languageSession);
         }
     }
 }

@@ -468,6 +468,7 @@
     <Compile Include="Models\Entity\User.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Service\DataCommonService.cs" />
     <Compile Include="Models\Service\Even_Date_Service.cs" />
     <Compile Include="Models\Service\MacodeKhuyenMai_Service.cs" />
     <Compile Include="Models\Service\Nuocsanxuat_Service.cs" />

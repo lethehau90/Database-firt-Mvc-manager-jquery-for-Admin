@@ -1,6 +1,6 @@
 ﻿@model IList<Web_config_v1.Models.Entity.Html>
 @{ 
-    string language = Convert.ToString(Session["lang"]);
+    string language =  Web_config_v1.Models.Service.DataCommon.GetSessionLanguage(Session);
 }
 
 @if (Model != null)

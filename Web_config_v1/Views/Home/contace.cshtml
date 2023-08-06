@@ -1,6 +1,6 @@
 ﻿  <!--Alter toast-->
 @{
-    string language = Convert.ToString(Session["lang"]);
+    string language =  Web_config_v1.Models.Service.DataCommon.GetSessionLanguage(Session);
 }
 <div class="pad10h">
     <div class="contact_left">
