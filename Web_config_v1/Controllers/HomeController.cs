@@ -255,16 +255,16 @@ namespace Web_config_v1.Controllers
             //Seo
             if (data.Count > 0)
             {
-                ViewBag.title = connect_entity.GroupNews.FirstOrDefault(x => x.Tag == Category_tag).Name;
-                ViewBag.Description = connect_entity.GroupNews.FirstOrDefault(x => x.Tag == Category_tag).Description;
+                ViewBag.title = connect_entity.GroupNews.FirstOrDefault(x => x.Tag == Category_tag && x.Active == 1).Name;
+                ViewBag.Description = connect_entity.GroupNews.FirstOrDefault(x => x.Tag == Category_tag && x.Active == 1).Description;
                 if (ViewBag.Description == "")
                 {
-                    ViewBag.Description = connect_entity.GroupNews.FirstOrDefault(x => x.Tag == Category_tag).Name;
+                    ViewBag.Description = connect_entity.GroupNews.FirstOrDefault(x => x.Tag == Category_tag && x.Active == 1).Name;
                 }
-                ViewBag.Keyword = connect_entity.GroupNews.FirstOrDefault(x => x.Tag == Category_tag).Keyword;
+                ViewBag.Keyword = connect_entity.GroupNews.FirstOrDefault(x => x.Tag == Category_tag && x.Active == 1).Keyword;
                 if (ViewBag.Keyword == "")
                 {
-                    ViewBag.Description = connect_entity.GroupNews.FirstOrDefault(x => x.Tag == Category_tag).Name;
+                    ViewBag.Description = connect_entity.GroupNews.FirstOrDefault(x => x.Tag == Category_tag && x.Active == 1).Name;
                 }
             }
             return View(data);
